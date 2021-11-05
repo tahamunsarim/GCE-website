@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GCE</title>
+<style>
+  .btn-group button a {
+    color: white;
+  text-decoration:none;
+  }
+  h1{
+  font-size:30px;
+  font-family:calibri;
+  }
+.btn-group button {
+  position:relative;
+  margin-top: 20px;
+  top:1000%;
+  margin-bottom: 10px;
+  background-color: #333;
+  /*background-color: #555;*/
+  color:white;
+  font-size: 20px;
+  padding: 24px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius:6px;
+  text-align: center;
+}
+.btn-group.a{
+  left: 50%;
+}
+.btn-group button:hover{
+     background-color:rgb(108, 110, 110);
+     color: black;
+}
+.mySlides{
+  display:none;
+}
+  .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 19px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.topnav a:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.topnav1{
+  width:100%;
+  float: left;
+  background-color: #333;
+  color: white;
+  padding: 19px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+body
+{
+margin:0px;
+
+}
+fieldset{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  border-width: 5px;
+  border-radius: 50px;
+  border-color: rgb(253 12 12);
+}
+ul{
+  float: left;
+}
+li{
+	float: left;
+  list-style-type: circle;
+  margin-left: 35px;
+  padding-bottom: 5px;
+}
+/* .mySlides:hover{
+width: 600px;
+height: 600px;
+} */
+</style>
+</head>
+
+<body>
+
+<div class="topnav">
+  <a href="./linkReal.htm">Login/Register</a>
+  <a href="./index.html">Home</a>
+</div>
+<center>
+<fieldset class="1">
+<legend>VISION </legend>
+<p>To be an Excellent Engineering College providing world class engineers, who can handle the ever changing technology effectively. More importantl, to instil amongst our students good character, human values and other attributes which enable them to become good citizens.</p>
+
+</fieldset>
+<fieldset class="2">
+<legend>MISSION</legend>
+<ul>
+  <p>To Provide state of the art infrastructure facilities and programmes essential for offering world class technical education, Trainging, Consultancy, Research & Development activities & to provide facilities for curricular and co-curricular activities necessary for development of overall personality of our students.</p>
+  
+</ul>
+</fieldset>
+
+ </center>
+ <br><br>
+<fieldset class="1">
+  <legend>Departments:</legend>
+<div class="btn-group">
+  <center>
+    <button><a href="./cse.htm"  ><abbr title="COMPUTER SCIENCE AND ENGINEERING"> CSE</abbr></a></button>
+    <button><a href="./ee.htm"  ><abbr title="ELECTRICAL AND ELECTRONICS ENGINEERING">EEE</abbr></a></button>
+<button><a href="./ece.htm"  ><abbr title="ELECTRONICS AND COMMUNICATION ENGINEERING">ECE</abbr></a></button>
+<button><a href="./ce.htm"  ><abbr title="CIVIL ENGINEERING">CE</abbr></a></button>
+<button><a href="./me.htm"  ><abbr title="MACHANICAL ENGINEERING"> ME</abbr></a></button>
+
+</div>
+ </fieldset>
+</center>
+
+ <center>
+ <br><br><br>
+ <fieldset class="1">
+ <h2 >Gallery</h2>
+ <div style="max-width:600px">
+  <img class="mySlides" src="./Images/gp1.jpg" style="width:100%">
+  <img class="mySlides" src="./Images/gp2.jpg" style="width:100%">
+  <img class="mySlides" src="./Images/gp3.jpg" style="width:100%">
+  <img class="mySlides" src="./Images/gp4.jpg" style="width:100%">
+  <img class="mySlides" src="./Images/gp5.jpg" style="width:100%">
+  <img class="mySlides" src="./Images/gp6.jpg" style="width:100%">
+  <img class="mySlides" src="./Images/gp7.jpg" style="width:100%">
+  <img class="mySlides" src="./Images/gp8.jpg" style="width:100%">
+  <img class="mySlides" src="./Images/gp9.jpg" style="width:100%">
+ 
+ 
+ 
+ 
+ 
+</div></center>
+</fieldset>
+<fieldset class="2">
+<legend>About us</legend><br>
+Made by..
+<ul>
+  <li>Taha Munsarim</li><br>
+  <br>
+  <li>Darshan RS</li>
+
+</ul>
+</fieldset>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2300); 
+}
+</script>
+<div class="topnav1">
+    <img src="./Images/call.png" style="width:20px;height:20px;">080 2727 1353<br>
+    <img src="./Images/email.png" style="width:20px;height:20px;">principalgce@gmail.com<br>
+    <img src="./Images/address.png" style="width:20px;height:20px;">B.M Road, Vijaya Nagar, Ramanagara, Karnataka 562159
+</div>
+</body>
+</html>

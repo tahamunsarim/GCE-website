@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+<head>
+<style>
+  
+
+  body { 
+    margin:0; 
+  }
+
+  .container .text{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    top:46%;
+    left:50%;
+    text-align: center;
+    position: absolute;
+    transform:translate(-50%,-50%);
+    mix-blend-mode: luminosity;
+  }
+  .topnav1{
+  width:100%;
+  float: left;
+  background-color: #333;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+  li{
+    list-style: none;
+  }
+  button a{
+	text-decoration:none;
+	color:white;
+  }
+  .equal-width td{ 
+    width:50%;
+  }
+  #navbar {
+    height: 60px;
+    display: block;
+    transition: top 0.3s;
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+  }
+
+  #navbar a {
+    float: right;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+
+  #navbar a:hover {
+    background-color: black;
+  }
+
+  table,th,td{ 
+    border:1px solid black;
+    border-collapse:collapse;
+    width:80%;
+    /*background-color:#AOAOAO;*/
+    font-family:arial,sans-seriff;
+    text-align:center;
+    padding:10px;
+  }
+
+  tr:nth-child(even){
+    background-color:#f2f2f2;
+    /*background-color:#dddddd;*/
+    width:80%;
+  }
+
+  .parallax {
+    background-image:url("p1.jpg");
+    min-height:1000px;
+    height:100%;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+
+  .container .btn {
+    position: absolute;
+    top: 60%;
+    left: 46%;
+    background-color: #555;
+    color: white;
+    font-size: 20px;
+    padding: 24px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    text-align: center;
+  }
+
+  .container .btn:hover {
+    background-color: black;
+  }
+  .container .logo{
+    transform:translate(0%,60%);
+    background-repeat: no-repeat;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img
+{
+padding:8px;
+margin:8px;
+border-radius:15px;
+background-color:#fff;
+box-shadow: 15px 15px 10px #ccc;
+
+}
+</style>
+
+<script type="text/javascript">
+  window.onscroll = function()
+  {
+    scrollFunction()
+  };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("navbar").style.top = "0";
+    } 
+    else {
+      document.getElementById("navbar").style.top = "-60px";
+    }
+  }
+</script>
+</head>
+
+<body bg="#e6f2ff">
+  <div id="navbar">
+    <a href="./linkReal.htm" >Login/Register</a>
+  </div>
+  <div class="parallax" background="p1.jpg" >
+    <div class="container">
+      <div class="logo">
+        <img src="./Images/logo.jpg" width="140" height="140" alt=""> 
+      </div>
+      <div class="text">
+        <font size=40>GHOUSIA COLLEGE OF ENGINEERING</font>
+      </div>
+      <button class="btn"><a href="./slide.htm">ENTER</a></button>
+    </div>
+  </div>
+<BR><BR><BR><BR>
+
+  <div class="col-sm-12">
+    <h1>About GCE</h1>
+    <hr>
+    <p> <b>Ghousia College of Engineering</b> was started in the year 1980. The College is affiliated to <b>Visvesvaraya Technological University</b>, Belagavi and recognized by <b>AICTE</b>, New Delhi and Government of Karnataka. All its departments are accreidited by National Board of Accreditation (NBA) for the third term. It is the <b>No.1 Minority College in the State of Karnataka.</b> The College is situated on an expanse of 35 acres of land, about 45 KMs from Bengaluru on the Bengaluru-Mysore National Highway 275. The Library is housed in a separate building with a separate Issue, Reference and General Reading Room Sections with a sufficient collection of books and subscribed to the e-Journals through VTU Consortia. Hostel facility for about 600 students is provided in the campus with separate Hostel for Girls.The College has Excellent Sports facilities for students including gymnasium. Transportation facility is available for students coming from Bengaluru, Mandya, Channapatna& Ramanagaram.</p>
+  
+    <div class="col-sm-6">
+    <img src="images/pic1.jpg" class="img" style="float: right;">
+    </div>
+    <div class="col-sm-6">
+    <img src="images/pic2.jpg" class="img">
+  </div>
+  
+  <p style="margin-top: 20px;">The College was awarded as “Excellent Engineering College in Karnataka - 2016” during IInd National Karnataka Education Summit & Awards by MNRE & MSME (Govt. of India), AICTE, Association of Indian Universities, CMAI, VTU, NSIC, Electronics India, niXi and NIELIT, organized by Visvesvaraya Technological University, Belagavi</p>
+  
+  <b>Quality Policy</b>
+  <p>We at Ghousia College of Engineering, dedicate and commit ourselves to accomplish and sustain our VISION and MISSION of GCE through the synergy of the knowledge, skill, expertise, hard work and co-operation of GCE Team of faculty members, supporting staff, our alumni members, students and members of our College management by continuous improvement.</p>
+  </div>
+<BR><BR><BR>
+<BR><BR><BR><BR>
+<div class="topnav1">
+    <img src="./Images/call.png" style="width:20px;height:20px;float: left;">  080 2727 1353<br>
+    <img src="./Images/email.png" style="width:20px;height:20px;float: left;">principalgce@gmail.com<br>
+    <img src="./Images/address.png" style="width:20px;height:20px;float: left;">  B.M Road, Vijaya Nagar, Ramanagara, Karnataka 562159
+</div>
+</body>
+</html>
